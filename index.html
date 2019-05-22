@@ -1,0 +1,583 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <link rel="shortcut icon" type="image/png" href="favicon.png">
+    
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css?6281">
+	<link rel="stylesheet" type="text/css" href="style.css?6151">
+	<link rel="stylesheet" type="text/css" href="./css/animate.min.css?3749">
+	<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
+	<link href='https://fonts.googleapis.com/css?family=Roboto&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    
+	<script src="./js/jquery-3.3.1.min.js?7961"></script>
+	<script src="./js/bootstrap.bundle.min.js?1470"></script>
+	<script src="./js/blocs.min.js?483"></script>
+	<script src="./js/lazysizes.min.js" defer></script>
+    <title>Home</title>
+
+    
+<!-- Analytics -->
+ 
+<!-- Analytics END -->
+    
+</head>
+<body>
+<!-- Main container -->
+<div class="page-container">
+    
+<!-- bloc-0 -->
+<div class="bloc bloc-fill-screen l-bloc" id="bloc-0">
+	<div class="container fill-bloc-top-edge">
+		<div class="row">
+			<div class="col-12">
+				<nav class="navbar navbar-light row navbar-expand-md flex-column">
+					<a class="navbar-brand mx-auto" href="#">Analisis de Algoritmos<br></a>
+					<button id="nav-toggle" type="button" class="ui-navbar-toggler navbar-toggler border-0 p-0" data-toggle="collapse" data-target=".navbar-1" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+				</nav>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<h1 class="mg-md text-center h1-style">
+					Listas Doblemente Enlazadas
+				</h1>
+				<p class="text-justify p-style">
+					En algunas aplicaciones podemos desear recorrer la lista hacia adelante y hacia atrás, o dado un elemento, podemos desear conocer rápidamente los elementos anterior y siguiente. En tales situaciones podríamos desear darle a cada celda sobre una lista un puntero a las celdas siguiente y anterior en la lista tal y como se muestra en la figura.
+				</p>
+			</div>
+			<div class="offset-md-2 col-md-8 col-lg-8 offset-lg-2">
+				<img src="img/lazyload-ph.png" data-src="img/Imagen%204.png" class="img-fluid mx-auto d-block img-style lazyload" />
+			</div>
+		</div>
+	</div>
+	<div class="container fill-bloc-bottom-edge">
+		<div class="row">
+			<div class="col-12">
+				<div class="text-center">
+					<a href="#" data-scroll-speed="1000" onclick="scrollToTarget('0',this)"><span class="fa fa-angle-down icon-md animated bounce animDelay08"></span></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-0 END -->
+
+<!-- bloc-1 -->
+<div class="bloc bloc-fill-screen l-bloc" id="bloc-1">
+	<div class="container fill-bloc-top-edge">
+		<div class="row">
+			<div class="col-12">
+				<nav class="navbar navbar-light row navbar-expand-md">
+					<button id="nav-toggle" type="button" class="ui-navbar-toggler navbar-toggler border-0 p-0 mr-md-0 ml-auto" data-toggle="collapse" data-target=".navbar-1" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+				</nav>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-6 align-self-center col-md-7">
+				<h1 class="mg-md text-center text-md-left h1-¿qué-style">
+					¿Qué es?
+				</h1>
+				<p class="p-2-style text-justify">
+					Se puede referir a una lista doble o doblemente ligada, a una colección de&nbsp;nodos que emplean además de su dato, dos elementos llamados punteros, los&nbsp;cuales se utilizan para especificar cuál es el elemento anterior y sucesor. Estos&nbsp;punteros se denominan Li (anterior) y Ld (sucesor). Tales punteros permiten&nbsp;moverse dentro de las listas un registro adelante o un registro atrás, según&nbsp;tomen las direcciones de uno u otro puntero.<br>
+				</p>
+			</div>
+			<div class="col-lg-5 offset-lg-1 col-sm-8 offset-sm-2 offset-md-0 col-md-5">
+				<h1 class="mg-md">
+					<br>
+				</h1>
+				<h5 class="mg-md h5-style">
+					La estructura de un nodo en una lista doble es la siguiente:
+				</h5><img src="img/lazyload-ph.png" data-src="img/Captura%20de%20pantalla%202019-05-22%20a%20la%28s%29%201.53.19.png" class="img-fluid mx-auto d-block img-2-style lazyload" />
+			</div>
+		</div>
+	</div>
+	<div class="container fill-bloc-bottom-edge">
+		<div class="row">
+			<div class="col-12">
+				<div class="text-center">
+					<a href="#" data-scroll-speed="1000" onclick="scrollToTarget('0',this)"><span class="fa fa-angle-down icon-md animated bounce animDelay08"></span></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-1 END -->
+
+<!-- bloc-2 -->
+<div class="bloc l-bloc" id="bloc-2">
+	<div class="container bloc-lg">
+		<div class="row">
+			<div class="col-md-6">
+				<h1 class="mg-md">
+					Listas dobles lineales
+				</h1>
+				<p>
+					En este tipo de lista el puntero Li del primerelemento apunta a NULL y el último elemento indica en su puntero Ld a&nbsp;NULL. <br> <br><br>
+				</p><img src="img/lazyload-ph.png" data-src="img/Captura%20de%20pantalla%202019-05-22%20a%20la%28s%29%202.03.22.png" class="img-fluid mx-auto d-block lazyload" />
+			</div>
+			<div class="col-md-6">
+				<h1 class="mg-md">
+					Listas dobles circulares
+				</h1>
+				<p>
+					Este otro tipo de lista tiene la particularidad que&nbsp;en su primer elemento el puntero, Li apunta al último elemento de la&nbsp;lista. Y el último elemento indica, en su puntero Ld, a el primer elemento&nbsp;de la lista.<br>
+				</p><img src="img/lazyload-ph.png" data-src="img/Captura%20de%20pantalla%202019-05-22%20a%20la%28s%29%202.04.25.png" class="img-fluid mx-auto d-block img-4-style lazyload" />
+			</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-2 END -->
+
+<!-- bloc-3 -->
+<div class="bloc l-bloc" id="bloc-3">
+	<div class="container bloc-lg">
+		<div class="row">
+			<div class="col-sm-10 offset-sm-1 col-md-8 offset-md-2 col-lg-6 offset-lg-3">
+				<h1 class="mg-md">
+					En código:
+				</h1>
+				<p class="p-5-style">
+					Podemos representar un nodo mediante una clase en Java. A esta clase la llamaremos Nodo. A continuación el código de la clase Nodo.
+				</p>
+				<div class="divider-h">
+					<span class="divider"></span>
+				</div>
+				<p class="p-bloc-3-style">
+					public class Nodo {<br> //Campos del nodo<br> int informacion;<br> Nodo anterior;<br> Nodo siguiente;<br><br> //constructor que inicializa un Nodo con cierta informacion o dato<br> public Nodo(int dato) {<br> informacion = dato;<br> anterior = null;<br> siguiente = null;<br> }<br>}<br>
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-3 END -->
+
+<!-- bloc-4 -->
+<div class="bloc l-bloc" id="bloc-4">
+	<div class="container bloc-lg">
+		<div class="row">
+			<div class="col">
+				<p class="mx-auto d-block">
+					Ahora que tenemos la implementación del nodo podemos pasar a implementar la LDE. Para implementar una LDE vamos a nombrar al primer nodo cabeza haciendolo un nodo con nombre propio (esta es sólo una opción pues otras personas prefieren usar una referencia al primer nodo en lugar de hacer especial el primer nodo). Además, nombraremos al último nodo fin. Por lo tanto tenemos los siguientes casos:<br><br>- Si la lista está vacía (no hay ningún elemento) no existirán los nodos cabeza ni fin y por lo tanto seránnull.<br>- Si solamente hay un nodo en la lista esta será cabeza y fin a la misma vez. Por ejemplo, la siguiente imagen es una lista en donde hay un solo dato (15), el nodo cabeza tiene como dato 15 y comosiguiente y anterior igual a null y el nodo fin también.<br>
+				</p><img src="img/lazyload-ph.png" data-src="img/Imagen%201.png" class="img-fluid mx-auto d-block lazyload" />
+			</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-4 END -->
+
+<!-- bloc-5 -->
+<div class="bloc l-bloc" id="bloc-5">
+	<div class="container bloc-lg">
+		<div class="row">
+			<div class="col-sm-10 offset-sm-1 col-md-8 offset-md-2 col-lg-6 offset-lg-3">
+				<p class="p-8-style">
+					A continuación se muestra el código que esquematizará a una LDE.<br><br>
+				</p>
+				<div class="divider-h">
+					<span class="divider"></span>
+				</div>
+				<p class="p-9-style">
+					public class ListaDoblementeEnlazada {<br> Nodo cabeza;<br> Nodo fin;<br><br> //constructor que crea una LDE vacia.<br> public ListaDoblementeEnlazada() {<br> cabeza = null;<br> fin = null;<br> }<br>}<br><br>
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-5 END -->
+
+<!-- bloc-6 -->
+<div class="bloc l-bloc" id="bloc-6">
+	<div class="container bloc-lg">
+		<div class="row">
+			<div class="col">
+				<p class="text-lg-left mx-auto d-block mg-sm">
+					Ahora debemos implementar las operaciones que se han de realizar en la LDE (esto va a ocupar demasiadas líneas). Algunas de estas operaciones son<br><br>- I<strong>nsertar al frente:</strong> Inserta un nodo delante del actual nodo cabeza (en este caso, 'cabeza' se actualiza con el nuevo nodo).<br><br>- <strong>Insertar al final:</strong> Inserta un nodo al final de la lista, es decir, insertar detrás del nodo 'fin' actualizándolo con el nuevo nodo.<br><br>- <strong>Eliminar del frente:</strong> Elimina el nodo del frente ( 'cabeza' ) y actualiza 'cabeza' con el nodo que le sigue en la lista.<br><br>- <strong>Eliminar del final:</strong> Elimina el nodo final ( 'fin' ) y lo actualiza con el nodo que lo antecedía.<br><br>- <strong>Buscar:</strong> Busca un dato en la lista y si lo encuentra devuelve una referencia al nodo buscado, si no lo encuentra devuelve null.<br><br>Existen otras operaciones dependiendo de la necesidad que se tenga. Por ejemplo, se puede eliminar un elemento dentro de la lista como el quinto elemento. <br><br>Antes de implementar estas operaciones vamos a crear un método de la lista que nos indique si la lista está vacía o no.<br>
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-6 END -->
+
+<!-- bloc-7 -->
+<div class="bloc l-bloc" id="bloc-7">
+	<div class="container bloc-lg">
+		<div class="row">
+			<div class="col-sm-10 offset-sm-1 col-md-8 offset-md-2 col-lg-6 offset-lg-3">
+				<p class="p-11-style">
+					Para saber si una lista está vacía o llena es averiguando si el nodo cabeza es null o no. Si el nodo cabeza es null la lista estará vacía. A continuación el código de este método dentro de la clase ListaDoblementeEnlazada.
+				</p>
+				<div class="divider-h">
+					<span class="divider"></span>
+				</div>
+				<p class="p-12-style">
+					//indica si la lista está vacia<br> private boolean estaVacia() {<br> boolean vacia = false;<br> if ( cabeza == null ) {<br> vacia = true;<br> }<br> return vacia;<br> }<br>}<br>
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-7 END -->
+
+<!-- bloc-8 -->
+<div class="bloc l-bloc" id="bloc-8">
+	<div class="container bloc-lg">
+		<div class="row">
+			<div class="col">
+				<h3 class="mg-md mx-auto d-block">
+					Insertar al frente<br><br>
+				</h3>
+				<p class="mx-auto d-block">
+					Tenemos dos casos: La lista está o no vacía. Esto se puede saber mediante el método estaVacia() implementado arriba.<br><br><strong>a)</strong> Si la lista está vacía simplemente nombramos el nuevo nodo como 'cabeza' y 'fin'. Esto se puede hacer con:<br>cabeza = nuevo;<br>fin = nuevo;<br><br><strong>b)</strong> Si la lista no está vacía entonces seguimos los siguientes pasos:<br><br><strong>paso 1.</strong> Hacemos que el nuevo nodo apunte a 'cabeza' como su siguiente nodo. Esto se puede hacer con:<br>nuevo.siguiente = cabeza;<br><br><strong>paso 2.</strong> Hacemos que el nodo 'cabeza' apunte al nuevo nodo como su anterior nodo. Esto se puede hacer con:<br>cabeza.anterior = nuevo;<br><br>Al final nombramos al nuevo nodo como 'cabeza'. Esto se puede hacer con:<br>cabeza = nuevo;<br><br>La siguiente imagen muestra los pasos descritos:<br><br>
+				</p><img src="img/lazyload-ph.png" data-src="img/Imagen%202.png" class="img-fluid mx-auto d-block lazyload" />
+			</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-8 END -->
+
+<!-- bloc-9 -->
+<div class="bloc l-bloc" id="bloc-9">
+	<div class="container bloc-lg">
+		<div class="row">
+			<div class="col-sm-10 offset-sm-1 col-md-8 offset-md-2 col-lg-6 offset-lg-3">
+				<p class="p-14-style">
+					<br><br>A los pasos 1 y 2 le vamos a llamar enlazar. Así creamos un método enlazar "utilitario" al igual que el método buscar (en color rojo).<br>
+				</p>
+				<div class="divider-h">
+					<span class="divider"></span>
+				</div>
+				<p class="p-15-style">
+					//enlaza dos nodos mediante enlace doble<br> private void enlazar(Nodo nodoA, Nodo nodoB) {<br> nodoA.siguiente = nodoB;<br> nodoB.anterior = nodoA;<br> }<br>
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-9 END -->
+
+<!-- bloc-10 -->
+<div class="bloc l-bloc" id="bloc-10">
+	<div class="container bloc-lg">
+		<div class="row">
+			<div class="col-sm-10 offset-sm-1 col-md-8 offset-md-2 col-lg-6 offset-lg-3">
+				<p>
+					A continuación se muestra el código del método insertarInicio(int ndato) que realiza la operación insertar al inicio.<br><br>
+				</p>
+				<div class="divider-h">
+					<span class="divider"></span>
+				</div>
+				<p class="p-17-style">
+					//inserta un nuevo nodo al inicio de la lista<br> public void insertarInicio(int ndato) {<br> Nodo nuevo = new Nodo(ndato);<br> if ( estaVacia() ) {<br> cabeza = nuevo;<br> fin = nuevo;<br> } else {<br> enlazar(nuevo, cabeza);<br> cabeza = nuevo;<br> }<br> }<br>
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-10 END -->
+
+<!-- bloc-11 -->
+<div class="bloc l-bloc" id="bloc-11">
+	<div class="container bloc-lg">
+		<div class="row">
+			<div class="col-sm-10 offset-sm-1 col-md-8 offset-md-2 col-lg-6 offset-lg-3">
+				<h3 class="mg-md">
+					Insertar al final
+				</h3>
+				<p>
+					Los pasos son muy similares a la operación insertar al inicio. El código se muestra a continuación.
+				</p>
+				<div class="divider-h">
+					<span class="divider"></span>
+				</div>
+				<p class="p-19-style">
+					//inserta un nuevo nodo al final de la lista<br> public void insertarFinal(int ndato) {<br> Nodo nuevo = new Nodo(ndato);<br> if ( estaVacia() ) {<br> cabeza = nuevo;<br> fin = nuevo;<br> } else {<br> enlazar(fin, nuevo);<br> fin = nuevo;<br> }<br> }<br>
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-11 END -->
+
+<!-- bloc-12 -->
+<div class="bloc l-bloc" id="bloc-12">
+	<div class="container bloc-lg">
+		<div class="row">
+			<div class="col">
+				<h3 class="mg-md mx-auto d-block">
+					Eliminar del frente
+				</h3>
+				<p class="p-20-style mx-auto d-block">
+					Tenemos dos casos:<br><br>a) Si la lista está vacía entonces no se hace nada.<br><br>b) Si la lista no está vacía seguimos los siguientes pasos:<br><br><strong>paso1.</strong> Referenciamos al nodo después de 'cabeza' como 'primero' y hacemos que 'primero' apunte apunte a 'null' como anterior. Esto se puede hacer con:<br>primero = cabeza.siguiente;<br>primero.anterior = null;<br><br><strong>Peligro:</strong> Es posible que la lista contenga un solo elemento, en ese caso 'primero' toma el valor de 'null' y la eliminación deja la lista vacía por lo que haciendo una simple verificación de si 'primero' es igual a 'null' podemos hacer la eliminación como sigue:<br>if (primero == null) {<br> cabeza = null;<br> fin = null;<br>}<br><br><strong>paso2.</strong> Cambiamos de nombre a 'primero' para que sea 'cabeza'. Esto se hace con:<br>cabeza = primero;<br><br>Puesto que ya no existen referencias apuntando al nodo que antes era 'cabeza' el recolector de basura de Java lo eliminará, es decir, ya no debemos preocuparnos por ese nodo.<br><br>La siguiente imagen muestra los pasos descritos.<br>
+				</p><img src="img/lazyload-ph.png" data-src="img/Imagen%203.png" class="img-fluid mx-auto d-block lazyload" />
+			</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-12 END -->
+
+<!-- ScrollToTop Button -->
+<a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1',this)"><span class="fa fa-chevron-up"></span></a>
+<!-- ScrollToTop Button END-->
+
+
+<!-- bloc-13 -->
+<div class="bloc l-bloc" id="bloc-13">
+	<div class="container bloc-lg">
+		<div class="row">
+			<div class="col-sm-10 offset-sm-1 col-md-8 offset-md-2 col-lg-6 offset-lg-3">
+				<p class="p-21-style">
+					El código del método eliminarInicio se muestra a continuación:
+				</p>
+				<div class="divider-h">
+					<span class="divider"></span>
+				</div>
+				<p class="p-22-style">
+					&nbsp; &nbsp; //elimina el nodo del frente de la lista<br> public void eliminarInicio() {<br> if ( !estaVacia() ) {<br> Nodo primero = cabeza.siguiente;<br> if ( primero == null ) {<br> cabeza = null;<br> fin = null;<br> } else {<br> primero.anterior = null;<br> cabeza = primero;<br> }<br> }<br> }<br>
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-13 END -->
+
+<!-- bloc-14 -->
+<div class="bloc l-bloc" id="bloc-14">
+	<div class="container bloc-lg">
+		<div class="row">
+			<div class="col-sm-10 offset-sm-1 col-md-8 offset-md-2 col-lg-6 offset-lg-3">
+				<h3 class="mg-md">
+					Eliminar del final
+				</h3>
+				<p>
+					Esta operación es similar al caso anterior. A continuación el código:
+				</p>
+				<div class="divider-h">
+					<span class="divider"></span>
+				</div>
+				<p class="p-24-style">
+					//elimina el nodo del final de la lista<br> public void eliminarFinal() {<br> if ( !estaVacia() ) {<br> Nodo ultimo = fin.anterior;<br> if ( ultimo == null ) {<br> cabeza = null;<br> fin = null;<br> } else {<br> ultimo.siguiente = null;<br> fin = ultimo;<br> }<br> }<br> }<br>
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-14 END -->
+
+<!-- bloc-15 -->
+<div class="bloc l-bloc" id="bloc-15">
+	<div class="container bloc-lg">
+		<div class="row">
+			<div class="col-sm-10 offset-sm-1 col-md-8 offset-md-2 col-lg-6 offset-lg-3">
+				<h3 class="mg-md">
+					Buscar
+				</h3>
+				<p>
+					Esta es simple. Recorremos la lista nodo por nodo hasta encontrar el buscado. Declaramos dos referencias 'Nodo' 'buscado' e 'iterador'. 'buscado' será el nodo que será devuelto si se encuentra lo que se busca. Con 'iterador' vamos a recorrer todos los nodos de la lista uno por uno empezando por 'cabeza'. Este efecto se consigue con la sentencia:<br><br>Nodo iterador = cabeza;<br>while ( iterador != null ) {<br> //... codigo ...<br> iterador = iterador.siguiente;<br>}<br><br>En cada iteración debemos comparar el valor actual de 'informacion' de 'iterador' con el valor buscado ( 'dato' ). Si se ha encontrado entonces se actualiza 'buscado' con el valor actual de iterador y se debe romper el 'while'. Esto se puede hacer con un break, sin embargo, se hará insertando una condición más al 'while'. Cuando 'buscado' es diferente de null entonces debe parar el while. El siguiente código muestra el método buscar:<br>
+				</p>
+				<div class="divider-h">
+					<span class="divider"></span>
+				</div>
+				<p class="p-26-style">
+					//devuelve una referencia al nodo buscado, si no se encuentra devuelve null<br> public Nodo buscar(int dato) {<br> Nodo buscado = null;<br> Nodo iterador = cabeza;<br> while ( buscado == null &amp;&amp; iterador != null ) {<br> if ( iterador.informacion == dato ) {<br> buscado = iterador;<br> }<br> iterador = iterador.siguiente;<br> }<br> return buscado;<br> }<br>
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-15 END -->
+
+<!-- bloc-16 -->
+<div class="bloc l-bloc" id="bloc-16">
+	<div class="container bloc-lg">
+		<div class="row">
+			<div class="col-sm-10 offset-sm-1 col-md-8 offset-md-2 col-lg-6 offset-lg-3">
+				<p>
+					<br>Por último vamos a crear un método para mostrar la lista. para esto vamos a recorrer la lista nodo por nodo como se hizo en el método buscar sólo que en lugar de hacer comparaciones vamos a mostrar cada elemento. A continuación se muestra el código del método mostrar en color rojo. Este código es el final de nuestra clase ListaDoblementeEnlazada:<br>
+				</p>
+				<div class="divider-h">
+					<span class="divider"></span>
+				</div>
+				<p class="p-28-style">
+					&nbsp; &nbsp; //muestra los valores en la lista<br> public void mostrar() {<br> Nodo iterador = cabeza;<br> while ( iterador != null ) {<br> System.out.print( iterador.informacion + " -&gt; " );<br> iterador = iterador.siguiente;<br> }<br> System.out.println( "null" );<br> }<br>
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-16 END -->
+
+<!-- bloc-17 -->
+<div class="bloc l-bloc" id="bloc-17">
+	<div class="container bloc-lg">
+		<div class="row">
+			<div class="col-sm-10 offset-sm-1 col-md-8 offset-md-2 col-lg-6 offset-lg-3">
+				<h1 class="mg-md">
+					A compilarloooo!
+				</h1>
+				<p>
+					Nuestra clase principal será:
+				</p>
+				<div class="divider-h">
+					<span class="divider"></span>
+				</div>
+				<p class="p-30-style">
+					public class Main {<br> public static void main(String[] args) {<br> ListaDoblementeEnlazada lista = new ListaDoblementeEnlazada();<br> lista.insertarInicio(3);<br> lista.mostrar();<br> lista.insertarInicio(2);<br> lista.mostrar();<br> lista.insertarFinal(5);<br> lista.mostrar();<br> lista.insertarInicio(1);<br> lista.mostrar();<br> lista.insertarInicio(1);<br> lista.mostrar();<br> lista.insertarFinal(8);<br> lista.mostrar();<br> Nodo a = lista.buscar(3);<br> System.out.println((a != null)? "3 si esta" : "3 no esta" );<br> Nodo b = lista.buscar(7);<br> System.out.println((b != null)? "7 si esta" : "7 no esta" );<br> lista.eliminarFinal();<br> lista.mostrar();<br> lista.eliminarInicio();<br> lista.mostrar();<br> lista.eliminarFinal();<br> lista.mostrar();<br> lista.eliminarFinal();<br> lista.mostrar();<br> lista.eliminarFinal();<br> lista.mostrar();<br> lista.eliminarFinal();<br> lista.mostrar();<br> lista.eliminarFinal();<br> lista.mostrar();<br> lista.eliminarFinal();<br> lista.mostrar();<br> }<br>}<br>
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-17 END -->
+
+<!-- bloc-18 -->
+<div class="bloc l-bloc bloc-fill-screen" id="bloc-18">
+	<div class="container fill-bloc-top-edge">
+		<div class="row">
+			<div class="col-12">
+				<nav class="navbar navbar-light row navbar-expand-md">
+					<button id="nav-toggle" type="button" class="ui-navbar-toggler navbar-toggler border-0 p-0 mr-md-0 ml-auto" data-toggle="collapse" data-target=".navbar-1" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+				</nav>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<h1 class="mg-md text-center">
+					Resultado:
+				</h1>
+			</div>
+			<div class="offset-md-2 col-md-8 col-lg-8 offset-lg-2">
+				<div class="mx-auto d-block blocsapp-device blocsapp-device-mb mb-space-grey">
+					<img src="img/lazyload-ph.png" data-src="img/Captura%20de%20pantalla%202019-05-22%20a%20la%28s%29%203.13.19.png" class="img-fluid lazyload" />
+				</div>
+				<div class="text-center">
+					<a href="downloads/ListaDoblementeEnlazada.zip" class="btn btn-d btn-lg" target="_blank">Descarga el código<span class="special-tag-for-editing-text-with-html"></span></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container fill-bloc-bottom-edge">
+		<div class="row">
+			<div class="col-12">
+				<div class="text-center">
+					<a href="#" data-scroll-speed="1000" onclick="scrollToTarget('0',this)"><span class="fa fa-angle-down icon-md animated bounce animDelay08"></span></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-18 END -->
+
+<!-- bloc-19 -->
+<div class="bloc l-bloc " id="bloc-19">
+	<div class="container bloc-lg">
+		<div class="row">
+			<div class="col-md-6 order-md-1">
+				<h6 class="mg-md">
+					Video y quizz en inglés:
+				</h6>
+				<div class="embed-responsive embed-responsive-16by9">
+					<iframe class="embed-responsive-item lazyload" src="img/lazyload-ph.png" data-src="https://www.youtube.com/embed/FHMPswJDCvU" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
+					</iframe>
+				</div>
+				<div class="divider-h">
+					<span class="divider"></span>
+				</div>
+				<div class="text-center">
+					<a href="https://study.com/academy/practice/quiz-worksheet-creating-doubly-linked-lists-in-java.html" class="btn btn-d btn-lg" target="_blank">Quizz Random</a>
+				</div>
+			</div>
+			<div class="col-md-6 align-self-center">
+				<h2 class="mg-md">
+					Material recomendado y consultado
+				</h2>
+				<h3 class="mg-md">
+					Algunos libros:
+				</h3>
+				<p>
+					Adam Drozdek, Estructura de datos y algoritmos en java, México,<br>Thomson Learning, 2000. <br>Alfred V. Aho / Jonh E. Hopcroft, Estructura de datos y algoritmos,<br>Madrid, Pearson Educación, 1983. <br>Goodrich / Tamassia, Estructura de datos y algoritmos en java, México,<br>CECSA, 2002. <br>Harvey M. y Paul J. Deitel, Como programar en java, México, Deitel,<br>2004.<br>
+				</p>
+				<div class="text-center">
+					<a href="https://sites.google.com/a/espe.edu.ec/programacion-ii/home/listas-enlazadas/listas-doblemente-enlazadas" class="btn btn-d btn-lg" target="_blank">Otra Web Chida</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-19 END -->
+
+<!-- bloc-20 -->
+<div class="bloc l-bloc" id="bloc-20">
+	<div class="container bloc-lg">
+		<div class="row">
+			<div class="col-lg-4 col-md-4">
+				<div class="card">
+					<div class="card-body team-card">
+						<img src="img/lazyload-ph.png" data-src="img/WhatsApp%20Image%202019-05-22%20at%203.34.28%20AM.jpeg" class="rounded-circle mx-auto d-block mt-5 img-9-style lazyload" width="100" />
+						<h3 class="text-center mg-sm">
+							Gabriela Lopez Gonzalez
+						</h3>
+						<h5 class="text-center mg-md">
+							S17014973
+						</h5>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-4 mt-3 mt-md-0">
+				<div class="card">
+					<div class="card-body team-card">
+						<img src="img/lazyload-ph.png" data-src="img/mike.jpg" class="rounded-circle mx-auto d-block mt-5 lazyload" width="100" />
+						<h3 class="text-center mg-sm">
+							Miguel Angel Galvez Vazquez
+						</h3>
+						<h5 class="text-center mg-md">
+							S17014979
+						</h5>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-4 mt-3 mt-md-0">
+				<div class="card">
+					<div class="card-body team-card">
+						<img src="img/lazyload-ph.png" data-src="img/WhatsApp%20Image%202019-05-22%20at%203.28.15%20AM.jpeg" class="rounded-circle mx-auto d-block mt-5 img-11-style lazyload" width="100" />
+						<h3 class="text-center mg-sm">
+							Michelle Casas Chiu
+						</h3>
+						<h5 class="text-center mg-md">
+							S17015047
+						</h5>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-20 END -->
+
+</div>
+<!-- Main container END -->
+    
+
+
+<!-- Preloader -->
+<div id="page-loading-blocs-notifaction" class="page-preloader"></div>
+<!-- Preloader END -->
+
+</body>
+</html>
